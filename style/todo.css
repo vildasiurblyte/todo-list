@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8;
+  color:black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.addItem  {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.addItem #input {
+  color: #666a6d;
+  font-size: 100%;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.item {
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 300px;
+  border: solid 1px #ffffff;
+  border-radius: 10px;
+  background-color: #fcbe4a;
+}
+
+.item > p {
+  word-wrap: break-word;
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+}
+
+.checkbox {
+  float: right;  
+}
+
+button.delete {
+  width: auto;
+  text-align: center;
+  float: right;
+}
+
+
